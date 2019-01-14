@@ -1,0 +1,46 @@
+/*
+Creator: Phil Ledbetter
+Date Created: 01/09/2019
+Date Last Modified: 01/10/2019
+*/
+
+body {
+  background-color: #282828;
+  color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  color: #f9f9f9;
+  height: 60px;
+  padding: 10px 5px 10px 5px;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  color: #d6421d;
+  text-align: center;
+}
+
+.btn {
+  background-color: #a1a1a1;
+  color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  height: 35px;
+}
+
+.nav {
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav .btn:hover {
+  font-weight: bold;
+  background-color: #d6421d;
+}
